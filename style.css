@@ -1,0 +1,98 @@
+:root {
+  --color-brand--1: #ffb545;
+  --color-brand--2: #00c46a;
+
+  --color-dark--1: #2d3439;
+  --color-dark--2: #42484d;
+  --color-light--1: #aaa;
+  --color-light--2: #ececec;
+  --color-light--3: rgb(214, 222, 224);
+}
+html {
+  height: 80%;
+  margin: 20px;
+  padding: 0;
+}
+body {
+  display: flex;
+  border: 20px solid #ffffff;
+  border-radius: 5%;
+  height: 100%;
+  padding: 0;
+}
+
+.zone-workout {
+  flex: 1;
+  border: 10px solid #508d69;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  background-color: var(--color-light--2);
+}
+
+.logo {
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.solid {
+  color: #508d69;
+  width: 90%;
+}
+
+/*to be seen*/
+div.hidden {
+  display: none;
+}
+
+.label {
+  font-weight: 500;
+}
+
+.workout-info {
+  display: flex;
+  font-weight: bold;
+  background-color: #508d69;
+  color: #ececec;
+  height: 70px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.workout-type {
+  flex: 1;
+  text-align: center;
+}
+
+.workout-time {
+  flex: 1;
+}
+
+div.activity-block {
+  text-align: center;
+  overflow-y: scroll;
+  max-height: 53%;
+}
+
+#list-workout {
+  width: 65%;
+  text-align: center;
+}
+
+#map {
+  flex: 3;
+  border: 10px solid #508d69;
+  background-color: var(--color-dark--1);
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.leaflet-popup .leaflet-popup-tip {
+  font-size: 2 rem;
+  font-weight: 500;
+}
+
+.leaflet-popup .leaflet-popup-content-wrapper {
+  background-color: #9ade7b;
+}
